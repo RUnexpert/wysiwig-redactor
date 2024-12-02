@@ -191,7 +191,6 @@ export default {
     },
 
     toggleBlock(tag) {
-      const selection = window.getSelection();
       const range = this.getRange();
       if (!range) {
         const newElement = document.createElement(tag);
